@@ -1,0 +1,80 @@
+@font-face {
+	font-family: GilroyExtraBold;
+	src: url(../fonts/Gilroy-ExtraBold.otf)
+}
+
+@font-face {
+	font-family: GilroyLight;
+	src: url(../fonts/Gilroy-Light.otf)
+}
+
+.container-member-gray {
+    background-color: #e4e4e4;
+    height: 100vh;
+}
+
+.card-title{
+    font-family: GilroyExtraBold;
+}
+
+.spam-divider{
+    color:#dbb95a !important;
+    font-family: GilroyExtraBold;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.fa-facebook-f{
+    color:#555;
+    font-size:24;
+}
+
+#login-facebook:hover{
+    text-decoration:none !important;
+}
+
+.button-submit {
+    font-family: GilroyExtraBold;
+}
+
+.title-data {
+    font-family: GilroyExtraBold;
+    font-size: 1.25rem;
+}
+
+.result-data {
+    font-family: GilroyLight;
+    font-size: 1.75rem;
+}
+
+@media(max-width: 720px){
+    .result-data {
+        font-family: GilroyLight;
+        font-size: 1.00rem;
+    }
+}
