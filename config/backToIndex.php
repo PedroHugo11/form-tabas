@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST["insert"])){
+if(isset($_POST["back"])){
     header("Location: ../index.php");
 }
 

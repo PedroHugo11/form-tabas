@@ -65,7 +65,7 @@ $remember = (isset($_POST['remember'])) ? "remember" : "dont remember";
           <form action="config/backToIndex.php" method="post">
           <div class="row">
             <div class="col-sm-12">
-              <input type="submit" name="insert" value="insert" class="btn btn-lg btn-dark fs-6 py-3 fw-bold text-uppercase w-100 rounded-0 mt-3 mb-0">
+              <input type="submit" name="back" value="back to form" class="btn btn-lg btn-dark fs-6 py-3 fw-bold text-uppercase w-100 rounded-0 mt-3 mb-0">
             </div>
           </div>  
         </form>
